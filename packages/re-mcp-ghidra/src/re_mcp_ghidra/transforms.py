@@ -22,6 +22,9 @@ PINNED_TOOLS = frozenset(
         "get_xrefs_from",
         # Mutation
         "rename_function",
+        "rename_address",  # THTK fork: pin data/label rename (DAT_xxxx globals) so it shows in client tool lists
+        "rename_decompiler_variable",  # THTK fork: pin decompiler local/param rename
+        "retype_decompiler_variable",  # THTK fork: pin decompiler local/param retype
         "set_comment",
         "set_decompiler_comment",
         # Structs
